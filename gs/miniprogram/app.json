@@ -1,0 +1,51 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/systemTest/index",
+    "pages/systemMine/index",
+    "pages/systemIndex/index",
+
+    "pages/details/index",
+    "pages/admin/index",
+    "pages/xdhxd/index",
+    "pages/msxfx/index",
+    "pages/xgxs/index",
+    "pages/users/index",
+
+    "pages/wj0/index",
+    "pages/wj1/index",
+    "pages/wj2/index"
+    
+  ],
+  "window": {
+    "backgroundColor": "#9B5079",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#9B5079",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#9B5079",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/tab-index-on.png",
+        "iconPath": "images/tab-index.png",
+        "pagePath": "pages/systemIndex/index",
+        "text": "文章"
+      },{
+      "selectedIconPath": "images/tab-test-on.png",
+      "iconPath": "images/tab-test.png",
+      "pagePath": "pages/systemTest/index",
+      "text": "测评"
+      },
+      {
+        "selectedIconPath": "images/tab-mine-on.png",
+        "iconPath": "images/tab-mine.png",
+        "pagePath": "pages/systemMine/index",
+        "text": "我的"  
+      }
+    ]  
+  }
+}

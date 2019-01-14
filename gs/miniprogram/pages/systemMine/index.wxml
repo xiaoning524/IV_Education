@@ -1,0 +1,20 @@
+<!--pages/systemMine/index.wxml-->
+<view class='top'>
+    <view class='icon'><image src='{{avatarUrl}}'></image></view>
+    <view class='top-right'>
+      <view class='name'><view>{{nickName}}</view></view>
+    </view>
+</view>
+
+<view class='body'>
+  <view class='content'>
+    <canvas canvas-id="canvas" id='canvas'></canvas>
+  </view>
+</view>
+
+<view class='body'>
+  <view class='title'>用户反馈</view>
+</view>
+<view class='body'>
+  <view class='title'>系统评价</view>
+</view>

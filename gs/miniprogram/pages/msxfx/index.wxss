@@ -1,0 +1,41 @@
+/* pages/msxfx/index.wxss */
+page {
+  background-color: #f3f3f3;
+  color: #666;
+  font-size: 14px;
+}
+.item {
+  width: 100%;
+  margin-top: 20px;
+  box-shadow: #eee 0 0 1px 1px;
+  background-color: #fff;
+}
+.top {
+  line-height: 40px;
+  padding: 0 4%;
+  height: 40px;
+  border-bottom: #eee 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #9B5079;
+}
+.body {
+  padding: 10px 4%;
+}
+.body li {
+  height: 60rpx;
+  border-bottom: #eee 2rpx dashed
+}
+.body li:last-child {
+  border-bottom: none;
+}
+.li_top {
+  padding: 4px 0;
+}
+.li_body {
+  margin: 4px 0 8px;
+  height: 2px;
+  background-color: #9B5079;
+  border-radius: 5px;
+}

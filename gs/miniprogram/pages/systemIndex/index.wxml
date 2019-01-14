@@ -1,0 +1,22 @@
+<!--pages/systemIndex/index.wxml-->
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class='swiper'>
+  <block wx:for="{{imgUrls}}" wx:key='index'>
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+  </block>
+</swiper>
+
+<view class='list'>
+  <view class='item' wx:for="{{articles}}" wx:key='index' bindtap='details' data-value="{{index}}">
+    <view class='left'>
+      <image src="https://pigall.cn/gaoshan/images/{{articles[index].img}}"></image>
+    </view>
+    <view class='right'>
+      <view class='title'>{{articles[index].title}}</view>
+      <view class='intro'>{{articles[index].intro}}</view>
+      <view class='time'>{{articles[index].time}}</view>
+    </view>
+  </view>
+</view>
+

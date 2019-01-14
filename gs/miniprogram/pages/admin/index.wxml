@@ -1,0 +1,83 @@
+<!--pages/admin/index.wxml-->
+<view class='container'>
+  <view class='item'>
+    <view class='top' bindtap='goToWJ'>
+      <view class='top-left'>
+        <view><image src='../../images/wj.png'></image></view>
+        <view><text>问卷系统</text></view>
+      </view>
+      <view class='top-right'>></view>
+    </view>
+    <view class='body'>
+      <ul>
+        <li> <view class='body-left'>合格问卷数量</view>  <view class='body-right'>{{allNum -noNum}}</view> </li>
+        <li> <view class='body-left'>废弃问卷数量</view>  <view class='body-right'>{{noNum}}</view> </li>
+      </ul>
+    </view>
+  </view>
+  <view class='item' bindtap='goTomsxfx'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><image src='../../images/tj.png'></image></view>
+        <view><text>描述性统计</text></view>
+      </view>
+      <view class='top-right'>></view>
+    </view>
+    <view class='body'>
+      <ul>
+        <li> <view class='body-left'>师范生</view><view class='body-right'>{{teacherNum}}</view> </li>
+        <li> <view class='body-left'>男：女</view>  <view class='body-right'>{{boyNum}}：{{girlNum}}</view> </li>
+        <li> <view class='body-left'>有过创业经历</view>  <view class='body-right'>{{Exe}}</view> </li>
+      </ul>
+    </view>
+  </view>
+  <view class='item' bindtap='goToxdhxd'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><image src='../../images/xdhxd.png'></image></view>
+        <view><text>问卷信度</text></view>
+      </view>
+      <view class='top-right'>></view>
+    </view>
+    <view class='body'>
+      <ul>
+        <li>
+        <view class='body-left'>问卷信度（Cronbach）</view>
+        <view class='body-right'>{{userData[0].xd}}</view> 
+        </li>
+      </ul>
+    </view>
+  </view>
+  <view class='item' bindtap='goToxgxs'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><image src='../../images/model.png'></image></view>
+        <view><text>相关度</text></view>
+      </view>
+      <view class='top-right'>></view>
+    </view>
+    <view class='body'>
+      <ul>
+        <li> <view class='body-left'> 把握机会</view>  <view class='body-right'>{{userData[0].xgd1}}</view></li>
+        <li> <view class='body-left'> 风险承担</view>  <view class='body-right'>{{userData[0].xgd2}}</view> </li>
+        <li> <view class='body-left'>组织管理</view>  <view class='body-right'>{{userData[0].xgd3}}</view> </li>
+        <li> <view class='body-left'>资源整合</view>  <view class='body-right'>{{userData[0].xgd4}}</view> </li>
+        <li> <view class='body-left'>创新能力</view>  <view class='body-right'>{{userData[0].xgd5}}</view> </li>
+        <li> <view class='body-left'> 职业素养</view>  <view class='body-right'>{{userData[0].xgd6}}</view> </li>
+      </ul>
+    </view>
+  </view>
+  <view class='item' bindtap=''>
+    <view class='top'>
+      <view class='top-left'>
+        <view><image src='../../images/score.png'></image></view>
+        <view><text>评分体系</text></view>
+      </view>
+    </view>
+    <view class='body'>
+      <ul>
+        <li> <view class='body-left'>问卷评分</view>  <view class='body-right'>{{userData[0].sroce}}</view> </li>
+      </ul>
+    </view>
+  </view>
+</view>

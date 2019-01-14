@@ -1,0 +1,79 @@
+<!--pages/wj0/index.wxml-->
+<view class='container'>
+  <view class="{{sexItem}}">
+    <view class='title'>您的性别？</view>
+    <radio-group bindchange="sex">
+      <radio value="1">男</radio>
+      <radio value="2">女</radio>
+    </radio-group>
+  </view>
+  <view class="{{gradeItem}}">
+    <view class='title'>您的年级？</view>
+    <radio-group bindchange="grade">
+      <radio value="1">大一</radio>
+      <radio value="2">大二</radio>
+      <radio value="3">大三</radio>
+      <radio value="4">大四</radio>
+      <radio value="5">研一</radio>
+      <radio value="6">研二</radio>
+      <radio value="7">研三</radio>
+    </radio-group>
+  </view>
+  <view class="{{teacherItem}}">
+    <view class='title'>您的专业类别？</view>
+    <radio-group bindchange="teacher">
+      <radio value="1">师范类</radio>
+      <radio value="2">非师范类</radio>
+    </radio-group>
+  </view>
+  <view class="{{couseItem}}">
+    <view class='title'>您所在的学校是否有创新创业教育相关课程？</view>
+    <radio-group bindchange="couse">
+      <radio value="1">是</radio>
+      <radio value="2">否</radio>
+    </radio-group>
+  </view>
+  <view class="{{couseNumItem}}">
+    <view class='title'>您所在的学校创新创业教育课程数量？</view>
+    <radio-group bindchange="couseNum">
+      <radio value="1">3 门以下</radio>
+      <radio value="2">3-5 门</radio>
+      <radio value="3">5 门以上</radio>
+      <radio value="4">不清楚</radio>
+    </radio-group>
+  </view>
+  <view class="{{couseTypeItem}}">
+    <view class='title'>您所在的学校有哪些与创新创业有关的活动或组织（多选）？</view>
+    <checkbox-group bindchange="couseType">
+      <checkbox value="1">创新创业类讲座</checkbox>
+      <checkbox value="2">创新创业类竞赛</checkbox>
+      <checkbox value="3">创新创业类组织</checkbox>
+      <checkbox value="4">不清楚</checkbox>
+    </checkbox-group>
+  </view>
+  <view class="{{couseItemItem}}">
+    <view class='title'>您所在的学校对大学生创新创业提供的支持有哪些（多选）？</view>
+    <checkbox-group bindchange="couseItem">
+      <checkbox value="1">信息服务平台</checkbox>
+      <checkbox value="2">专业导师指导</checkbox>
+      <checkbox value="3">创业能力测评</checkbox>
+      <checkbox value="4">创业启动资金</checkbox>
+      <checkbox value="5">创业孵化基地</checkbox>
+      <checkbox value="6">创新创业课程</checkbox>
+      <checkbox value="7">其他</checkbox>
+      <checkbox value="8">不清楚</checkbox>
+    </checkbox-group>
+  </view>
+  <view class="{{couseExeItem}}">
+    <view class='title'>您的创业经历？</view>
+    <radio-group bindchange="couseExe">
+      <radio value="1">没有经历，也不想创业</radio>
+      <radio value="2">有过想法，但没有行动</radio>
+      <radio value="3">有过经历，但并没成功</radio>
+      <radio value="4">有过经历，并创业成功</radio>
+    </radio-group>
+  </view>
+  <view class='bottom'>
+    <view class='btn' bindtap='next'>下一步</view>
+  </view>
+</view>

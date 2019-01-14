@@ -1,0 +1,10 @@
+<!--pages/systemTest/index.wxml-->
+<view class="container">
+  <view class='title'>云南师范大学创新创业测评</view>
+  <view class='text'>
+    <text space="ensp">亲爱的大学生朋友： 
+    您好！培养创新创业型人才是我国建设创新型国家的首要的任务，构建完善的创新创业教育体系作为创新型人才培养的基本前提，已经成为一个很值得研究的课题。本次调査旨在了解我校大学生创新创业的基本情况，我们承诺此问卷调查不涉及任何个人隐私，您的任何回答都将被严格保密，同时此研究成果不会用于商业用途。因此请根据您的实际情况，真实作答，非常感谢您对本次问卷调查的支持！
+    </text> 
+  </view>
+  <button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo" class='btn' bindtap='go'>开始测评</button>
+</view>

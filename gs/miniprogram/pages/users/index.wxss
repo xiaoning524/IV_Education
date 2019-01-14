@@ -1,0 +1,54 @@
+/* pages/users/index.wxss */
+page {
+  background-color: #f3f3f3;
+  font-size: 14px;
+  color: #666;
+}
+.sum {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 92%;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 4%;
+  background-color: #fff;
+  border-bottom: #ddd 1px solid;
+  color: #9B5079
+}
+.content {
+  margin-top: 35px;
+  overflow-x: scroll;
+  width: 100%;
+}
+.top {
+  width: 2050px;
+  height: 35px;
+  line-height: 35px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  border-bottom: #eee 1px solid;
+}
+.body {
+  width: 2050px;
+}
+.top view,
+.item view {
+  width: 60px;
+  border-right: #ddd 1px solid;
+  text-align: center
+}
+.top view:last-child,
+.item view:last-child {
+  border-right: #ddd 1px solid;
+  text-align: center
+}
+.item {
+  height: 35px;
+  line-height: 35px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  border-bottom: #ddd 1px solid
+}

@@ -1,0 +1,48 @@
+/* pages/systemIndex/index.wxss */
+page {
+  background-color: #f3f3f3;
+  font-size: 14px;
+}
+.swiper {
+  height: 200px;
+  width: 100%;
+}
+.swiper-image {
+  height: 100%;
+  width: 100%;
+}
+.slide-image{
+   height: 100%;
+  width: 100%;
+}
+.list {
+  padding: 30rpx 4%;
+  
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30rpx;
+}
+.left {
+  width: 250rpx;
+  margin-right: 20rpx;
+}
+.left image {
+  width: 250rpx;
+  height: 200rpx;
+}
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+.intro {
+  color: #666;
+  height: 120rpx;
+  margin-top: 15rpx
+}
+.time {
+  color: #888;
+}

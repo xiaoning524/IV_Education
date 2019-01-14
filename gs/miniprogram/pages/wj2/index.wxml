@@ -1,0 +1,156 @@
+<!--pages/wj2/index.wxml-->
+<view class='container'>
+  <view class="{{b11Item}}">
+    <view class='title'>我总有一些新的想法</view>
+    <radio-group bindchange="b11">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{b12Item}}">
+    <view class='title'>我认为创新比重复更有用</view>
+    <radio-group bindchange="b12">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{b13Item}}">
+    <view class='title'>我能够发现身边一些微小的变化</view>
+    <radio-group bindchange="b13">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{b21Item}}">
+    <view class='title'>我认为承担责任是一种很神圣的事情</view>
+    <radio-group bindchange="b21">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{b22Item}}">
+    <view class='title'>我认为答应的事情一定要办到</view>
+    <radio-group bindchange="b22">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{b23Item}}">
+    <view class='title'>我能够坚持长期做一件事情</view>
+    <radio-group bindchange="b23">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{b31Item}}">
+    <view class='title'>我乐于和别人交谈</view>
+    <radio-group bindchange="b31">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{b32Item}}">
+    <view class='title'>主动帮助别人会使我感到快乐</view>
+    <radio-group bindchange="b32">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{b33Item}}">
+    <view class='title'>我深信我的观点能改变他人</view>
+    <radio-group bindchange="b33">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{b41Item}}">
+    <view class='title'>我对别人的话通常都不会怀疑</view>
+    <radio-group bindchange="b41">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{b42Item}}">
+    <view class='title'>给别人帮忙使我感到快乐</view>
+    <radio-group bindchange="b42">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{b43Item}}">
+    <view class='title'>我通常不愿意和别人争抢</view>
+    <radio-group bindchange="b43">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{b51Item}}">
+    <view class='title'>我喜欢按部就班的生活</view>
+    <radio-group bindchange="b51">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{b52Item}}">
+    <view class='title'>我不喜欢提反对意见</view>
+    <radio-group bindchange="b52">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{b53Item}}">
+    <view class='title'>我很少想下一步要怎么做</view>
+    <radio-group bindchange="b53">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class='bottom'>
+    <view class='btn' bindtap='next'>提交问卷</view>
+  </view>
+</view>

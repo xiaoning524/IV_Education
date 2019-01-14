@@ -1,0 +1,335 @@
+<!--pages/xgxs/index.wxml-->
+<view class='container'>
+  <view class='item'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><text>把握机会</text></view>
+      </view>
+      <view class='top-right'>{{userData[0].xgd1}}</view>
+    </view>
+    <view class='body'>
+      <ul>
+        <li> 
+        <view class='body-left'>机会识别能力</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n1avg1a}}</view>
+            <view>{{userData[0].n1val1a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n1avg1b}}</view>
+            <view>{{userData[0].n1val1b}}</view>
+          </view>
+        </view>
+         </li>
+        <li> 
+        <view class='body-left'>机会评估能力</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n1avg2a}}</view>
+            <view>{{userData[0].n1val2a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n1avg2b}}</view>
+            <view>{{userData[0].n1val2b}}</view>
+          </view>
+        </view>
+         </li>
+         <li> 
+        <view class='body-left'>机会使用能力</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n1avg3a}}</view>
+            <view>{{userData[0].n1val3a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n1avg3b}}</view>
+            <view>{{userData[0].n1val3b}}</view>
+          </view>
+        </view>
+         </li>
+      </ul>
+    </view>
+  </view>
+  <view class='item'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><text>风险承担</text></view>
+      </view>
+      <view class='top-right'>{{userData[0].xgd2}}</view>
+    </view>
+    <view class='body'>
+      <ul>
+        <li> 
+        <view class='body-left'>风险识别能力</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n2avg1a}}</view>
+            <view>{{userData[0].n2val1a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n2avg1b}}</view>
+            <view>{{userData[0].n2val1b}}</view>
+          </view>
+        </view>
+         </li>
+         <li> 
+        <view class='body-left'>风险抵抗能力</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n2avg2a}}</view>
+            <view>{{userData[0].n2val2a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n2avg2b}}</view>
+            <view>{{userData[0].n2val2b}}</view>
+          </view>
+        </view>
+         </li>
+         <li> 
+        <view class='body-left'>自我调整能力</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n2avg3a}}</view>
+            <view>{{userData[0].n2val3a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n2avg3b}}</view>
+            <view>{{userData[0].n2val3b}}</view>
+          </view>
+        </view>
+         </li>
+      </ul>
+    </view>
+  </view>
+  <view class='item'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><text>组织管理</text></view>
+      </view>
+      <view class='top-right'>{{userData[0].xgd3}}</view>
+    </view>
+    <view class='body'>
+      <ul>
+        <li> 
+        <view class='body-left'>人际沟通能力</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n3avg1a}}</view>
+            <view>{{userData[0].n3val1a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n3avg1b}}</view>
+            <view>{{userData[0].n3val1b}}</view>
+          </view>
+        </view>
+         </li>
+         <li> 
+        <view class='body-left'>团队建立能力</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n3avg2a}}</view>
+            <view>{{userData[0].n3val2a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n3avg2b}}</view>
+            <view>{{userData[0].n3val2b}}</view>
+          </view>
+        </view>
+         </li>
+         <li> 
+        <view class='body-left'>团队运营能力</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n3avg3a}}</view>
+            <view>{{userData[0].n3val3a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n3avg3b}}</view>
+            <view>{{userData[0].n3val3b}}</view>
+          </view>
+        </view>
+         </li>
+      </ul>
+    </view>
+  </view>
+  <view class='item'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><text>资源整合</text></view>
+      </view>
+      <view class='top-right'>{{userData[0].xgd4}}</view>
+    </view>
+    <view class='body'>
+      <ul>
+        <li> 
+        <view class='body-left'>资源需求分析能力</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n4avg1a}}</view>
+            <view>{{userData[0].n4val1a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n4avg1b}}</view>
+            <view>{{userData[0].n4val1b}}</view>
+          </view>
+        </view>
+         </li>
+         <li> 
+        <view class='body-left'>资源评估能力</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n4avg2a}}</view>
+            <view>{{userData[0].n4val2a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n4avg2b}}</view>
+            <view>{{userData[0].n4val2b}}</view>
+          </view>
+        </view>
+         </li>
+         <li> 
+        <view class='body-left'>资源使用能力</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n4avg3a}}</view>
+            <view>{{userData[0].n4val3a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n4avg3b}}</view>
+            <view>{{userData[0].n4val3b}}</view>
+          </view>
+        </view>
+         </li>
+      </ul>
+    </view>
+  </view>
+  <view class='item'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><text>创新能力</text></view>
+      </view>
+      <view class='top-right'>{{userData[0].xgd5}}</view>
+    </view>
+    <view class='body'>
+      <ul>
+        <li> 
+        <view class='body-left'>创新意识</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n5avg1a}}</view>
+            <view>{{userData[0].n5val1a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n5avg1b}}</view>
+            <view>{{userData[0].n5val1b}}</view>
+          </view>
+        </view>
+         </li>
+         <li> 
+        <view class='body-left'>学习能力</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n5avg2a}}</view>
+            <view>{{userData[0].n5val2a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n5avg2b}}</view>
+            <view>{{userData[0].n5val2b}}</view>
+          </view>
+        </view>
+         </li>
+         <li> 
+        <view class='body-left'>技术实现能力</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n5avg3a}}</view>
+            <view>{{userData[0].n5val3a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n5avg3b}}</view>
+            <view>{{userData[0].n5val3b}}</view>
+          </view>
+        </view>
+         </li>
+      </ul>
+    </view>
+  </view>
+  <view class='item'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><text>职业素养</text></view>
+      </view>
+      <view class='top-right'>{{userData[0].xgd6}}</view>
+    </view>
+    <view class='body'>
+      <ul>
+        <li> 
+        <view class='body-left'>自信</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n6avg1a}}</view>
+            <view>{{userData[0].n6val1a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n6avg1b}}</view>
+            <view>{{userData[0].n6val1b}}</view>
+          </view>
+        </view>
+         </li>
+         <li> 
+        <view class='body-left'>诚信</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n6avg2a}}</view>
+            <view>{{userData[0].n6val2a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n6avg2b}}</view>
+            <view>{{userData[0].n6val2b}}</view>
+          </view>
+        </view>
+         </li>
+         <li> 
+        <view class='body-left'>坚韧</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n6avg3a}}</view>
+            <view>{{userData[0].n6val3a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n6avg3b}}</view>
+            <view>{{userData[0].n6val3b}}</view>
+          </view>
+        </view>
+         </li>
+         <li> 
+        <view class='body-left'>责任心</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n6avg4a}}</view>
+            <view>{{userData[0].n6val4a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n6avg4b}}</view>
+            <view>{{userData[0].n6val4b}}</view>
+          </view>
+        </view>
+         </li>
+         <li> 
+        <view class='body-left'>乐观积极</view>  
+        <view class='body-right'>
+          <view class='data-list'>
+            <view>{{userData[0].n6avg5a}}</view>
+            <view>{{userData[0].n6val5a}}</view>
+          </view>
+          <view class='data-list'>
+            <view>{{userData[0].n6avg5b}}</view>
+            <view>{{userData[0].n6val5b}}</view>
+          </view>
+        </view>
+         </li>
+      </ul>
+    </view>
+  </view>
+</view>

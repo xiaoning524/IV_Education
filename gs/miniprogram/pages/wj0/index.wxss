@@ -1,0 +1,74 @@
+/* pages/wj0/index.wxss */
+page {
+  background-color: #f3f3f3;
+  color: #666;
+  font-size: 16px;
+  padding-bottom: 100px
+}
+.item {
+  margin-top: 20px;
+  width: 100%;
+  padding: 0 5%;
+  background-color: #fff;
+  box-shadow: #ddd 0 0 1px 1px;
+}
+.itemed {
+  margin-top: 20px;
+  width: 100%;
+  padding: 0 5%;
+  background-color: #e3e3e3;
+  box-shadow: #ddd 0 0 1px 1px inset;
+}
+.title {
+  padding: 10px 5%;
+  border-bottom: #e3e3e3 1px solid
+}
+checkbox-group,
+radio-group {
+  padding: 0 5% 10px;
+  display: flex;
+  flex-direction: column
+}
+radio,
+checkbox {
+  line-height: 40px;
+}
+radio .wx-radio-input {
+  border-radius: 2px;
+  height: 15px;
+  width: 15px;
+  background: none
+}
+checkbox .wx-checkbox-input {
+  border-radius: 2px;
+  height: 15px;
+  width: 15px;
+  background: none
+}
+radio .wx-radio-input.wx-radio-input-checked::before {
+   font-size: 14px;
+   background: none
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before {
+   font-size: 14px;
+   color: #000
+}
+.bottom {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 20px 0;
+}
+.btn {
+  width: 84%;
+  margin-left: 8%;
+  text-align: center;
+  background-color: #9B5079;
+  color: #fff;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+  font-size: 16px;
+}

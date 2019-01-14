@@ -1,0 +1,21 @@
+<!--pages/xdhxd/index.wxml-->
+<view class='container'>
+  <view class='item'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><text>问卷信度</text></view>
+      </view>
+      <view class='top-right'></view>
+    </view>
+    <view class='body'>
+      <ul>
+        <li> <view class='body-left'>把握机会</view>  <view class='body-right'>{{userData[0].xd1}}</view> </li>
+        <li> <view class='body-left'>风险承担</view>  <view class='body-right'>{{userData[0].xd2}}</view> </li>
+        <li> <view class='body-left'>组织管理</view>  <view class='body-right'>{{userData[0].xd3}}</view> </li>
+        <li> <view class='body-left'>资源整合</view>  <view class='body-right'>{{userData[0].xd4}}</view> </li>
+        <li> <view class='body-left'>创新能力</view>  <view class='body-right'>{{userData[0].xd5}}</view> </li>
+        <li> <view class='body-left'>职业素养</view>  <view class='body-right'>{{userData[0].xd6}}</view> </li>
+      </ul>
+    </view>
+  </view>
+</view>

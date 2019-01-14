@@ -1,0 +1,240 @@
+<!--pages/msxfx/index.wxml-->
+<view class='container'>
+
+  <view class='item'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><text>性别</text></view>
+      </view>
+      <view class='top-right'></view>
+    </view>
+    <view class='body'>
+      <ul>
+      <li>
+        <view class='li_top'>男：{{boy}}</view>
+        <view class='li_body' style='width:{{100*boy/num}}%'></view>
+      </li> 
+      <li>
+        <view class='li_top'>女：{{girl}}</view>
+        <view class='li_body' style='width:{{100*girl/num}}%'></view>
+      </li>   
+      </ul>
+    </view>
+  </view>
+
+  <view class='item'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><text>年级</text></view>
+      </view>
+      <view class='top-right'></view>
+    </view>
+    <view class='body'>
+      <ul>
+      <li>
+        <view class='li_top'>大一：{{gNum1}}</view>
+        <view class='li_body' style='width:{{100*gNum1/num}}%'></view>
+      </li> 
+      <li>
+        <view class='li_top'>大二：{{gNum2}}</view>
+        <view class='li_body' style='width:{{100*gNum2/num}}%'></view>
+      </li>
+      <li>
+        <view class='li_top'>大三：{{gNum3}}</view>
+        <view class='li_body' style='width:{{100*gNum3/num}}%'></view>
+      </li>
+      <li>
+        <view class='li_top'>大四：{{gNum4}}</view>
+        <view class='li_body' style='width:{{100*gNum4/num}}%'></view>
+      </li>   
+      <li>
+        <view class='li_top'>研一：{{gNum5}}</view>
+        <view class='li_body' style='width:{{100*gNum5/num}}%'></view>
+      </li>
+      <li>
+        <view class='li_top'>研二：{{gNum6}}</view>
+        <view class='li_body' style='width:{{100*gNum6/num}}%'></view>
+      </li>
+      <li>
+        <view class='li_top'>研三：{{gNum7}}</view>
+        <view class='li_body' style='width:{{100*gNum7/num}}%'></view>
+      </li>
+      </ul>
+    </view>
+  </view>
+
+  <view class='item'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><text>专业类别</text></view>
+      </view>
+      <view class='top-right'></view>
+    </view>
+    <view class='body'>
+      <ul>
+      <li>
+        <view class='li_top'>师范类：{{teacher}}</view>
+        <view class='li_body' style='width:{{100*teacher/num}}%'></view>
+      </li> 
+      <li>
+        <view class='li_top'>非师范类：{{num -teacher}}</view>
+        <view class='li_body' style='width:{{100*(num-teacher)/num}}%'></view>
+      </li>   
+      </ul>
+    </view>
+  </view>
+
+  <view class='item'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><text>所在的学校是否有创新创业教育相关课程</text></view>
+      </view>
+      <view class='top-right'></view>
+    </view>
+    <view class='body'>
+      <ul>
+      <li>
+        <view class='li_top'>是：{{eduNum}}</view>
+        <view class='li_body' style='width:{{100*eduNum/num}}%'></view>
+      </li> 
+      <li>
+        <view class='li_top'>否：{{num-eduNum}}</view>
+        <view class='li_body' style='width:{{100*(num-eduNum)/num}}%'></view>
+      </li>   
+      </ul>
+    </view>
+  </view>
+
+  <view class='item'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><text>所在的学校创新创业教育课程数量</text></view>
+      </view>
+      <view class='top-right'></view>
+    </view>
+    <view class='body'>
+      <ul>
+      <li>
+        <view class='li_top'>3 门以下：{{eduNumA}}</view>
+        <view class='li_body' style='width:{{100*eduNumA/num}}%'></view>
+      </li> 
+      <li>
+        <view class='li_top'>3 - 5 门：{{eduNumB}}</view>
+        <view class='li_body' style='width:{{100*eduNumB/num}}%'></view>
+      </li> 
+      <li>
+        <view class='li_top'>5 门以上：{{eduNumC}}</view>
+        <view class='li_body' style='width:{{100*eduNumC/num}}%'></view>
+      </li>  
+      <li>
+        <view class='li_top'>不清楚：{{eduNumD}}</view>
+        <view class='li_body' style='width:{{100*eduNumD/num}}%'></view>
+      </li>    
+      </ul>
+    </view>
+  </view>
+
+  <view class='item'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><text>所在的学校有哪些与创新创业有关的活动或组织</text></view>
+      </view>
+      <view class='top-right'></view>
+    </view>
+    <view class='body'>
+      <ul>
+      <li>
+        <view class='li_top'>创新创业类讲座：{{couT1}}</view>
+        <view class='li_body' style='width:{{100*couT1/num}}%'></view>
+      </li> 
+      <li>
+        <view class='li_top'>创新创业类竞赛：{{couT2}}</view>
+        <view class='li_body' style='width:{{100*couT2/num}}%'></view>
+      </li> 
+      <li>
+        <view class='li_top'>创新创业类组织：{{couT3}}</view>
+        <view class='li_body' style='width:{{100*couT3/num}}%'></view>
+      </li>  
+      <li>
+        <view class='li_top'>不清楚：{{couT4}}</view>
+        <view class='li_body' style='width:{{100*couT4/num}}%'></view>
+      </li>    
+      </ul>
+    </view>
+  </view>
+
+  <view class='item'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><text>所在的学校对大学生创新创业提供的支持</text></view>
+      </view>
+      <view class='top-right'></view>
+    </view>
+    <view class='body'>
+      <ul>
+      <li>
+        <view class='li_top'>信息服务平台：{{couN1}}</view>
+        <view class='li_body' style='width:{{100*couN1/num}}%'></view>
+      </li> 
+      <li>
+        <view class='li_top'>专业导师指导：{{couN2}}</view>
+        <view class='li_body' style='width:{{100*couN2/num}}%'></view>
+      </li> 
+      <li>
+        <view class='li_top'>创业能力测评：{{couN3}}</view>
+        <view class='li_body' style='width:{{100*couN3/num}}%'></view>
+      </li>  
+      <li>
+        <view class='li_top'>创业启动资金：{{couN4}}</view>
+        <view class='li_body' style='width:{{100*couN4/num}}%'></view>
+      </li>  
+      <li>
+        <view class='li_top'>创业孵化基地：{{couN5}}</view>
+        <view class='li_body' style='width:{{100*couN5/num}}%'></view>
+      </li>  
+      <li>
+        <view class='li_top'>创新创业课程：{{couN6}}</view>
+        <view class='li_body' style='width:{{100*couN6/num}}%'></view>
+      </li>  
+      <li>
+        <view class='li_top'>其他：{{couN7}}</view>
+        <view class='li_body' style='width:{{100*couN7/num}}%'></view>
+      </li> 
+      <li>
+        <view class='li_top'>不清楚：{{couN8}}</view>
+        <view class='li_body' style='width:{{100*couN8/num}}%'></view>
+      </li>    
+      </ul>
+    </view>
+  </view>
+
+  <view class='item'>
+    <view class='top'>
+      <view class='top-left'>
+        <view><text>创新创业经历</text></view>
+      </view>
+      <view class='top-right'></view>
+    </view>
+    <view class='body'>
+      <ul>
+      <li>
+        <view class='li_top'>没有经历，也不想创业：{{ExeN1}}</view>
+        <view class='li_body' style='width:{{100*ExeN1/num}}%'></view>
+      </li> 
+      <li>
+        <view class='li_top'>有过想法，但没有行动：{{ExeN2}}</view>
+        <view class='li_body' style='width:{{100*ExeN2/num}}%'></view>
+      </li> 
+      <li>
+        <view class='li_top'>有过经历，但并没成功：{{ExeN3}}</view>
+        <view class='li_body' style='width:{{100*ExeN3/num}}%'></view>
+      </li>  
+      <li>
+        <view class='li_top'>有过经历，并创业成功：{{ExeN4}}</view>
+        <view class='li_body' style='width:{{100*ExeN4/num}}%'></view>
+      </li>    
+      </ul>
+    </view>
+  </view>
+
+</view>

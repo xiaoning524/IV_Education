@@ -1,0 +1,185 @@
+<!--pages/wj1/index.wxml-->
+<view class='container'>
+  <view class="{{a11Item}}">
+    <view class='title'>我认为创业能够积累更多的社会经验</view>
+    <radio-group bindchange="a11">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a12Item}}">
+    <view class='title'>我认为创业经历能够更好的帮助我找到好工作</view>
+    <radio-group bindchange="a12">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a13Item}}">
+    <view class='title'>我认为创业成功是人生的重要价值体现</view>
+    <radio-group bindchange="a13">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a21Item}}">
+    <view class='title'>我能够有效的识别身边存在的创业机会</view>
+    <radio-group bindchange="a21">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a22Item}}">
+    <view class='title'>我能够评估某一创业机会的价值</view>
+    <radio-group bindchange="a22">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a23Item}}">
+    <view class='title'>我能够将创业机会转化为一个可操作的项目</view>
+    <radio-group bindchange="a23">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a31Item}}">
+    <view class='title'>我能够有效的识别周围活动中潜在的风险</view>
+    <radio-group bindchange="a31">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a32Item}}">
+    <view class='title'>我能够应付身边发生的各种意外事件</view>
+    <radio-group bindchange="a32">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a33Item}}">
+    <view class='title'>失败过后,我能够迅速恢复心态</view>
+    <radio-group bindchange="a33">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a41Item}}">
+    <view class='title'>我通过沟通能够有效地使对方发生符合自己意思的改变</view>
+    <radio-group bindchange="a41">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a42Item}}">
+    <view class='title'>我能够根据需要找到合适的合作者</view>
+    <radio-group bindchange="a42">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a43Item}}">
+    <view class='title'>我能够维护团队内高效的工作程序</view>
+    <radio-group bindchange="a43">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a51Item}}">
+    <view class='title'>我能够清晰知道自己需要何种外部资源</view>
+    <radio-group bindchange="a51">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a52Item}}">
+    <view class='title'>我能够结合内外环境搭建资源结构</view>
+    <radio-group bindchange="a52">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a53Item}}">
+    <view class='title'>我能够按照现实的改变优化资源搭配结构</view>
+    <radio-group bindchange="a53">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a61Item}}">
+    <view class='title'>我具有强烈的改变现有观点或者做法的意愿</view>
+    <radio-group bindchange="a61">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class="{{a62Item}}">
+    <view class='title'>善于发现事物或者现象之间的新联系</view>
+    <radio-group bindchange="a62">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view><view class="{{a63Item}}">
+    <view class='title'>能够利用现有技术开展设计生产活动</view>
+    <radio-group bindchange="a63">
+      <radio value="1">非常不符合</radio>
+      <radio value="2">比较不符合</radio>
+      <radio value="3">一般</radio>
+      <radio value="4">比较符合</radio>
+      <radio value="5">非常符合</radio>
+    </radio-group>
+  </view>
+  <view class='bottom'>
+    <view class='btn' bindtap='next'>下一步</view>
+  </view>
+</view>

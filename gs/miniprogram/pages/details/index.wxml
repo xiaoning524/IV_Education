@@ -1,0 +1,9 @@
+<!--pages/details/index.wxml-->
+<view class='title'>{{articles[index].title}}</view>
+<view class='time'>{{articles[index].time}}</view>
+<view class='img'>
+  <image src="https://pigall.cn/gaoshan/images/{{articles[index].img}}"></image>
+</view>
+<view class='content'>
+<text space="emsp">{{articles[index].content}}</text>
+</view>
